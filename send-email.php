@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Налаштування пошти
-    $to = "illaykunhir@gmail.com"; // Замість цього введіть свій емейл
+    $to = "illaykunhir@gmail.com"; // 
     $subject = "Нове замовлення від $name";
     $body = "Ім'я: $name\nЕлектронна пошта: $email\nПовідомлення:\n$message";
 
